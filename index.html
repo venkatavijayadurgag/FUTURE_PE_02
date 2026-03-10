@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Website Copy Generator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+body{
+font-family: Arial, sans-serif;
+background:#f4f6f8;
+text-align:center;
+padding:40px;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:700px;
+margin:auto;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+color:#2c3e50;
+}
+
+input{
+width:80%;
+padding:10px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+padding:10px 20px;
+background:#3498db;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#2980b9;
+}
+
+#output{
+margin-top:20px;
+padding:20px;
+background:#ecf0f1;
+border-radius:8px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Website Copy Generator</h1>
+
+<p>Enter a prompt to generate website content using AI-style prompts.</p>
+
+<input type="text" id="promptInput" placeholder="Example: Dental clinic website">
+
+<br>
+
+<button onclick="generateCopy()">Generate Copy</button>
+
+<div id="output">
+Your generated website copy will appear here.
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
